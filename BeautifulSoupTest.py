@@ -18,6 +18,7 @@ def getTitle(url):
             print(name.get_text())
         title = bs.body.h1
     except AttributeError as e:
+        print(e)
         return None
     return title
 
