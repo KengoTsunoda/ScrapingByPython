@@ -4,6 +4,7 @@ from urllib.error import URLError
 from bs4 import BeautifulSoup
 import re
 
+# どんなデータを集めたいのか？⇒https://shop.healthcare.fujifilm.com/以下のファイルを全て取得したい。
 # サイトのページのパターンを見つける
 pages = set()
 def getlinks(pageUrl):
